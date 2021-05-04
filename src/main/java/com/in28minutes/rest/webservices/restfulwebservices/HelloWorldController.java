@@ -9,6 +9,7 @@ public class HelloWorldController {
 
 	@GetMapping(path = "/hello-world")
 	public String helloWorld() {
+		System.out.println("imprimiendo logs");
 		return "Hola mundo";
 	}
 
